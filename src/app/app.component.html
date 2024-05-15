@@ -1,0 +1,28 @@
+<div>
+  <div class="header">
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"> Страница 1 </a>
+    <a [routerLink]="['page2', 1]"> Страница 2 </a>
+    <a routerLink="/page3"> Страница 3 </a>
+    <a routerLink="/form1">Реактивная форма</a>
+    <a routerLink="/form2">Template-driven форма</a>
+  </div>
+</div>
+<router-outlet></router-outlet>
+<!-- <html>
+
+<head>
+  <title>Лабораторная работа №2</title>
+</head>
+
+<body>
+  <div>
+    <label for="input-name">Представьтесь, пожалуйста: </label>
+    <input [(ngModel)]="name" id="input-name"/>
+  </div>
+
+  <div>
+    <button (click)="onSayHi()">Сказать "Привет"</button>
+  </div>
+</body>
+
+</html> -->

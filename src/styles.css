@@ -1,0 +1,22 @@
+body{
+    background:rgb(255, 182, 219);
+    margin:0px;
+    padding:0px;
+    font-family:"Verdana";
+    font-size: 14pt;
+    color: rgb(208, 4, 106);
+}
+h1, h2{
+    font-family:"Verdana";
+    color:rgb(151, 0, 75);
+    margin: 10px 0px;
+}
+div{
+    /* font-family:"Verdana";
+    font-size: 14pt;
+    color: rgb(208, 4, 106); */
+    margin: 0px;
+}
+.page-header{
+    text-align: center;
+}
